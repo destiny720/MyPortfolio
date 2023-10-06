@@ -1,0 +1,185 @@
+*{
+    padding: auto;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: brown;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2em;
+}
+.navbar-nav li a{
+    font-size: 1em;
+}
+.navbar-nav{
+    margin-left: 0;
+}
+.nav-item{
+    margin: 15px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: none;
+    color:teal;
+}
+.bar1, .bar2, .bar3{
+    background-color: thistle;
+    height: 5px;
+    margin: 5px;
+    width: 35px;
+}
+.main{
+    background-image: url("michal.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+.overlay{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding-top: 18%;
+    padding-bottom: 18%;
+}
+.main h3{
+    font-weight: 900;
+    font-size: 1em;
+    text-shadow: 2px 3px black;
+}
+.quote{
+    height: 50vh;
+    background: #efefef;
+}
+.quote .word{
+    font-size: 2em;
+    font-weight: 900;
+}
+.main h3 span{
+    color: brown;
+}
+.lay{
+font-size: 1;
+}
+.container{
+    text-align: center;
+    padding: 30px 0;
+}
+.container h1{
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.container h2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: brown;
+    font-weight: 900;
+    text-decoration: underline black;
+}
+.container p{
+    padding-bottom: 3%;
+    margin-top: 5%;
+    font-size: 1em;
+}
+.img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+}
+.container .labelp{
+    font-size: 0.9em;
+}
+.labelp{
+    text-align: center;
+}
+.container input{
+    width: 50%;
+    background-color: rgb(204, 194, 194);
+    border-radius: 5px;
+    margin: 5px;
+}
+.container textarea{
+    width: 50%;
+    background-color: rgb(204, 194, 194);
+    border-radius: 5px;
+    margin: 5px;
+}
+.container button{
+    margin-right: 43%;
+    color: white;
+    background-color: brown;
+    border-style: none;
+}
+.container{
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 18px;
+    margin: auto;
+}
+.social-icon .fab{
+    color: wheat;
+    font-size: 18px;
+    transition: color 0.5;
+}
+.whtapp{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+.whtapp .fab{
+    font-size: 250%;
+    font-weight: 500;
+    color: green;
+}
+.whtapp label{
+    color: yellowgreen;
+    font-weight: 200;
+    font-size: 0.7em;
+}
+.social-icon .fab:hover{
+    color: blue;
+
+}
+
+@media only screen and (min-width: 768px){
+    .main h3{
+        font-size: 2em;
+    }
+    .quote .word{
+        font-size: 3.5em;
+        font-weight: 900;
+    }
+    .navbar-nav{
+        margin-left: 20%;
+    }
+    .whtapp .fab{
+    font-size: 350%;
+    font-weight: 900;
+    color: green;
+    }
+    .whtapp label{
+        color: yellowgreen;
+        font-weight: 500;
+        font-size: 0.9em;
+    }
+    .lay{
+        font-size: 1.5em;
+    }
+    .container .labelp{
+        font-size: 1.2em;
+        font-family: Helvetica;
+    }
+    .container .fab{
+        color: wheat;
+        font-size: 35px;
+        margin: 2%;
+    }
+}
